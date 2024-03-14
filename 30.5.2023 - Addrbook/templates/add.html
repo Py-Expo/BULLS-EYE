@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{background-color:#FFAABB;}
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body style="background-color:powderblue;">
+        <form action="{{url_for('add1')}}" method="POST">
+            <div><label for="name"> name</label>
+                <input type="text" name="name" ></div> <br>
+            <div><label for="watsapp_no"> watsappnum</label>
+                <input type="text" name="watsapp_no" ></div><br>
+            <div><label for="door_no"> door_no</label>
+                <input type="text" name="door_no" ></div><br>
+            <div><label for="street"> street</label>
+                <input type="text" name="street" ></div><br>
+            <div><label for="city"> city</label>
+                <input type="text" name="city" ></div><br>
+            <div><label for="pincode"> pincode</label>
+                            <input type="text" name="pincode" ></div><br>        
+
+
+
+            <div class="container">
+              <div class="vertical-center">
+                  <input type="submit" value="SUBMIT" >
+                  
+                  
+              </div>
+          </div>
+          
+        </form>
+</body>
+</html>

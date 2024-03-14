@@ -1,0 +1,12 @@
+Step:1 install 'mysql' databases
+step:2 go to Mysql command line client in search  
+step:3 give your mysql password
+step:4 type the following commands :
+
+show databases;
+create database flask;
+use flask;
+create table login (username varchar(50), password varchar(50));
+create table addrbook(name varchar(50),watsapp_no varchar(50),door_no varchar(50),street varchar(50),city varchar(50),pincode varchar(50));
+
+
